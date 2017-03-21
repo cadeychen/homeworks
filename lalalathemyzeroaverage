@@ -1,0 +1,12 @@
+%This is a program where it calculate the average of two numbers until it is zero.
+var number1, number2, total : int
+var theaverageheight : real
+loop
+put "please enter 2 numbers."
+get number1, number2
+total := number1+number2
+theaverageheight := total /2
+exit when theaverageheight=0
+put "The average of the numbers is ",theaverageheight,"."
+end loop
+put "Thank you for using this program."
