@@ -1,0 +1,15 @@
+%Hullo
+var x,n :int
+var theanswer : int := 1
+var i :int :=0
+%This is a program that calculate 1 + x + x square + x cube...+x to the power of n.
+put "please enter your x."
+  get x
+put "please enter your n."
+  get n
+loop
+  i += 1
+    theanswer := theanswer + x**i
+  exit when i = n
+end loop
+put "The answer is ",theanswer,"."
