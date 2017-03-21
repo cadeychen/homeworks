@@ -1,0 +1,16 @@
+% This program works as if you input the marks it will tell you how many of them are above 70."
+var mark: int
+var numbersofmarksunderseventy: int :=0
+put "Enter zero when you are finished entering the marks."
+for i : 1..10
+  put "Please enter a mark."..
+    get mark
+  if mark <= 70 then
+      numbersofmarksunderseventy += 1
+  end if
+  exit when mark =0
+end for
+put "The numbers of marks under 70 are ",numbersofmarksunderseventy,"."
+%done
+%withlife
+%leighleighleigh
