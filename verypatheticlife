@@ -1,0 +1,16 @@
+% This is a program which you enter a even number and display all the numbers in between.
+var number_1, number_2 : int
+put "Please enter 2 even numbers."
+  get number_1, number_2
+if number_1 > number_2 then
+  for decreasing i : number_1 .. number_2 by 2
+    put i
+  end for
+else
+  for decreasing t : number_2 .. number_1 by 2
+    put t
+  end for
+end if
+%goodbye.
+%gonna fail the quiz on Wednesday.
+%I am Going to get 0%
