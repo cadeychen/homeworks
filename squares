@@ -1,0 +1,7 @@
+% The cubes of the first eight numbers.
+% hehehe
+put "    number   square"
+for i : 1..8
+put i : 7..
+put i **2 :10
+end for
