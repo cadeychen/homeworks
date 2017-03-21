@@ -1,0 +1,16 @@
+% Julia, Max and interest
+var name1, name2 : real :=0
+var money1 : int:=300
+var money2 : int:=280
+var years : real:=0
+const INT1 := 0.0125
+const INT2 := 0.02
+loop
+  name1 +=money1*INT1
+  name2 +=money2*INT2
+  years += 1
+  exit when name2>name1
+end loop
+put "The year number which Max will then be richer than Julia is ",years,"."
+%There might be a granmmar mistake .
+%lalala
